@@ -1,6 +1,8 @@
 # ros_ma200_slam_gmapping
 本人对奥锐达MS200激光雷达的研究，很复杂，移植了gmapping和hector的建图算法，参考很多。
 
+运行方式roslaunch oradar_lidar hector_mapping.launch，这是hector的建图算法。roslaunch demo_gmapping_slam gmapping_ldlidar.launch，这是gmapping建图算法。
+
 
 你可以看看我移植的两个幻尔家的例程：
 LD19激光雷达——https://www.hiwonder.com.cn/course-detail/LD19.html   ——提取码是2ozl
